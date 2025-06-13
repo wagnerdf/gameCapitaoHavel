@@ -1,3 +1,31 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
+# Ignore arquivos de importação e cache
+.import/
+*.import
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+
+# Exports e builds
+/export/
+*.exe
+*.pck
+*.apk
+*.x86_64
+*.zip
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos ocultos e de configurações de IDEs
+*.swp
+.vscode/
+.idea/
+
+# Pasta de configurações locais do Godot (opcional)
+godot/tmp/
+
